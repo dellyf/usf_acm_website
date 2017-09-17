@@ -1,0 +1,55 @@
+body{
+ 		background-color: rgb(225, 224, 226);
+  /*background-image: url("backgroundlight.jpg");*/
+ 		 padding: 0px;
+ 		 margin: 0px;
+ 	}
+
+ 	/*	Have a box around each pic and text for e-board page */
+div .box-pic{
+    background-color: #E0FFFF;
+    width: 360px;
+    border: 0;
+    padding: 0px;
+    margin: 5px;
+}
+
+   /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+      border-radius: 0;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+footer {
+      background-color: #f2f2f2;
+      padding: 0px;
+    }
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+
+	/* have responsive jumbotron bg img */
+.jumbotron {
+/* bg cover for JUMBOTRON */
+	margin: 0;
+	background-image: url("https://i.imgur.com/JDyuLDS.jpg"); 
+	background-size: cover;
+    }
+
+.jumbotron h1{
+     	color: #1589FF;
+    } 	
+.jumbotron p{
+     	color: #157DEC;
+    } 	
