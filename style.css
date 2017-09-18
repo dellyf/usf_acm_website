@@ -1,0 +1,106 @@
+body{
+ 		background-color: rgb(225, 224, 226);
+ 		 padding: 0px;
+ 		 margin: 0px;
+ 		 font-family: 'Georgia', Arial, sans-serif;
+  		 font-size: 17.5px;
+  		 color:  #3d3c3a;
+ 	}
+
+ 	/*	Have a box around each pic and text for e-board page */
+div .box-pic{
+    background-color: #E0FFFF;
+    width: 360px;
+    border: 0;
+    padding: 0px;
+    margin: 5px;
+    color:#3d3c3a;
+}
+
+div .header-sep{
+	background-color: #9CB071;
+	padding-bottom: 0.25px;
+	padding-left: 15px;
+}
+
+div .header-sep h1{
+	font-family: Georgia;
+	font-weight: bold;
+	font-size: 25px;
+	color: #1589FF;
+}
+
+div .para-sep{
+	background-color: #6d7b8d;
+	padding-top: 5px;
+	padding-left: 15px;
+	color: white;
+}
+
+div .well{
+	background-color: #6d7b8d;
+	color:white;
+}
+
+   /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+.navbar {
+      border-radius: 0;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+
+    /* Add a gray background color and some padding to the footer */
+footer {
+      background-color:rgb(225, 224, 226);
+      padding: 0px;
+    }
+
+.carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+      max-height: 600px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+
+	/* have responsive jumbotron bg img */
+.jumbotron{
+/* bg cover for JUMBOTRON */
+position: relative;
+  width: 100%;
+  height: 15%;
+  overflow: hidden;
+    }
+
+.jumbotron .container {
+  position: relative;
+  z-index: 2;
+  color: #ffffff;
+}
+.jumbotron:after {
+  content:"";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;  
+  background:url("https://images.pexels.com/photos/249798/pexels-photo-249798.png?w=1260&h=750&auto=compress&cs=tinysrgb");
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: blur(7px);
+  transform: scale(1.1);
+}
+
+.jumbotron h1,h2{
+     	/* use for header-sep
+     	color: #1589FF;
+     	*/
+     	color: #3bb9ff;
+     	font-weight: bold;
+    } 	
