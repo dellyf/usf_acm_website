@@ -17,6 +17,8 @@ div .box-pic{
     color:#3d3c3a;
 }
 
+/* for headings with paragraphs after */
+
 div .header-sep{
 	background-color: #9CB071;
 	padding-bottom: 0.25px;
@@ -29,6 +31,8 @@ div .header-sep h1{
 	font-size: 25px;
 	color: #1589FF;
 }
+
+/* separates paragraphs from headers with different color box */
 
 div .para-sep{
 	background-color: #6d7b8d;
